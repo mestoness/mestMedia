@@ -10,25 +10,25 @@
 
 ### Projenin Genel Özellikleri
 
- - Gönderi  Paylaşma
- - Gönderiye yorum atma
- - Gönderi Silme
- - Profil Oluşturma 
- - Profil Düzenleme
- - Profilde son paylaştığın gönderilerin listelenmesi
- - Profil Arama
- - Profile Mesaj atma
+- [x] Gönderi  Paylaşma
+- [x] Gönderiye yorum atma
+- [] Gönderi Silme
+- [x] Profil Oluşturma 
+- [x] Profil Düzenleme
+- [x] Profilde son paylaştığın gönderilerin listelenmesi
+- [x] Profil Arama
+- [] Profile Mesaj atma
 
 ### Projenin Genel Tanımı
 Kullanıcıların gönderi paylaşıp yorum atıp birbirlerine mesaj atıp vakit geçirebilecekleri bir sosyal ağ
 
 ### Kullanılan Teknolojiler
 
- - PHP
- - JavaScript
- - HTML
- - CSS
- - MySQL
+- [x] PHP
+- [x] JavaScript
+- [x] HTML
+- [x] CSS
+- [x] MySQL
 
 
 
@@ -36,22 +36,22 @@ Kullanıcıların gönderi paylaşıp yorum atıp birbirlerine mesaj atıp vakit
 
 ### General Features of the Project
 
- - Post Sharing
- - Comment on the post
- - Post Deletion
- - Creating Profiles
- - Profile Editing
- - Listing of the posts you recently shared on the profile
- - Profile Search
- - Message the profile
+- [x] Post Sharing
+- [x] Comment on the post
+- [] Post Deletion
+- [x] Creating Profiles
+- [x] Profile Editing
+- [x] Listing of the posts you recently shared on the profile
+- [x] Profile Search
+- [] Message the profile
 
 ### General Description of the Project
 A social network where users can share posts, comment, message each other and spend time
 
 ### Used technologies
 
- - PHP
- - JavaScript
- - HTML
- - CSS
- - MySQL
+- [x] PHP
+- [x] JavaScript
+- [x] HTML
+- [x] CSS
+- [x] MySQL
