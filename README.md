@@ -12,12 +12,12 @@
 
 - [x] Gönderi  Paylaşma
 - [x] Gönderiye yorum atma
-- [] Gönderi Silme
+- [ ] Gönderi Silme
 - [x] Profil Oluşturma 
 - [x] Profil Düzenleme
 - [x] Profilde son paylaştığın gönderilerin listelenmesi
 - [x] Profil Arama
-- [] Profile Mesaj atma
+- [ ] Profile Mesaj atma
 
 ### Projenin Genel Tanımı
 Kullanıcıların gönderi paylaşıp yorum atıp birbirlerine mesaj atıp vakit geçirebilecekleri bir sosyal ağ
@@ -38,12 +38,12 @@ Kullanıcıların gönderi paylaşıp yorum atıp birbirlerine mesaj atıp vakit
 
 - [x] Post Sharing
 - [x] Comment on the post
-- [] Post Deletion
+- [ ] Post Deletion
 - [x] Creating Profiles
 - [x] Profile Editing
 - [x] Listing of the posts you recently shared on the profile
 - [x] Profile Search
-- [] Message the profile
+- [ ] Message the profile
 
 ### General Description of the Project
 A social network where users can share posts, comment, message each other and spend time
