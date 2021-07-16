@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z-_/]+)$ index.php?url=$1  [QSA] 
+Options -indexes
+ErrorDocument 403 http://%{SERVER_NAME}/MestMedia
+ErrorDocument 404 http://%{SERVER_NAME}/MestMedia

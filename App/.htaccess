@@ -1,0 +1,3 @@
+deny from all
+ErrorDocument 403 http://%{SERVER_NAME}/MestMedia
+ErrorDocument 404 http://%{SERVER_NAME}/MestMedia

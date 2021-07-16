@@ -1,0 +1,300 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+*:focus {
+  outline: 0;
+}
+body {
+  background-color: black;
+  word-wrap: break-word;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #2f3237;
+  display: block;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #586068;
+}
+body::-webkit-scrollbar-corner {
+  background-color: #ecf1f6;
+}
+div.post-content {
+  padding: 20px;
+  background: black;
+  border: 0;
+  border: 1px solid #0e0e0e;
+  box-shadow: 1px 0px 5px rgb(216 230 219 / 10%);
+  color: white;
+}
+
+div.post-content .post-header {
+  display: flex;
+}
+
+div.post-content .post-header > img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+div.post-content .post-header .post-header-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+div.post-content .post-header .post-header-info strong {
+  font-size: 14px;
+}
+
+div.post-content .post-header .post-header-info small {
+  font-size: 11px;
+  color: #9a9a9a;
+  margin-top: 1px;
+}
+
+div.post-content > p {
+  font-size: 14px;
+  padding-bottom: 20px;
+  padding-bottom: 0;
+  line-height: 1.4;
+  padding: 12px 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  overflow: hidden;
+}
+.post-tw-content {
+  padding: 12px 0;
+}
+ul.comment {
+  margin-top: 10px;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+ul.comment li {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+/**
+ * 
+ * 
+ul.comment li p {
+  font-size: 13px;
+  line-height: 20px;
+  background-color: black;
+  min-width: 95%;
+  padding: 10px 15px;
+  margin: 0;
+  border: 1px solid #2f3336;
+}
+*/
+ul.comment li .comment-box {
+  font-size: 13px;
+  line-height: 20px;
+  background-color: black;
+  min-width: 100%;
+  padding: 10px 15px;
+  margin: 0;
+  border: 1px solid #2f3336;
+}
+
+.comment-button {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.add_post_input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #0d3d5a;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: none;
+  caret-color: white;
+  resize: none;
+  color: white;
+}
+.add_post_input:focus {
+  outline: none;
+  border-bottom: 1px solid #1da1f2;
+  transition: 1s;
+}
+.add_post_input::-webkit-scrollbar {
+  background-color: rgb(53, 53, 53);
+  width: 2px;
+}
+.add_post_input::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+.modal {
+  border-radius: 0;
+  padding-bottom: 30px;
+
+  padding-top: 33px;
+  background: #0b0b0b;
+}
+
+.modal a.close-modal {
+  border: 1px solid #1da1f2;
+  position: absolute;
+  top: -18.5px;
+  right: -11.5px;
+  border-radius: 50%;
+}
+
+.add-post-btn {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid #1da1f2;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.submit-post {
+  border: none;
+  background: #0d3d5a;
+  padding: 10px 15px;
+  float: right;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+.submit-post:hover {
+  transition: 1s;
+  background-color: #1da1f2;
+}
+.blocker:before {
+  content: "";
+  display: inline-block;
+  height: 90%;
+}
+
+@media (max-width: 400px) {
+  .modal {
+    padding: 15px 10px;
+    width: 100%;
+  }
+}
+
+.post-content p a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+.post-content p a:hover {
+  color: #68c6ff;
+}
+#showMorePost,
+#showMore__ {
+  color: white;
+  padding: 0 22px;
+  text-align: center;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+img {
+  user-select: none;
+}
